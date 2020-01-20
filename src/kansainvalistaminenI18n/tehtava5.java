@@ -1,10 +1,7 @@
 package kansainvalistaminenI18n;
 
-import java.text.Collator;
 import java.text.DecimalFormat;
-import java.text.Format;
 import java.text.NumberFormat;
-import java.util.Collections;
 import java.util.Locale;
 
 public class tehtava5 {
