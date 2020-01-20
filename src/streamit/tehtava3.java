@@ -13,12 +13,13 @@ public class tehtava3 {
         sanat.add("kala");
 
         //KESKEN ALLA
-        List<String> kryptatut = sanat.stream()
+       /* List<String> kryptatut = sanat.stream()
+                .map(String::length)
                 .forEach(caesar())
                 .collect(Collectors.toList());
 
         kryptatut.stream()
-                .forEach(System.out::println);
+                .forEach(System.out::println);*/
 
         //System.out.println(caesar("kissa"));
 
