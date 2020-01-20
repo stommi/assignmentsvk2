@@ -18,7 +18,8 @@ public class tehtava4 {
         //aikaa seuraavaan syntP
         System.out.println(Period.between(tanaan, seuraavaSyntP));
 
-        
+        //kuinka kauan paivaa jaljella
+        //Duration.
 
         //syntynyt viikonpaivana
         System.out.println(syntymaP.getDayOfWeek());
