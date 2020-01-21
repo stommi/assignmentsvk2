@@ -60,6 +60,17 @@ public class tehtava4 {
 
         System.out.println("Parittomien summa on: " + parittomienSumma);
 
+        //luvut pilkulla eroteltuna yhdelle riville
+
+        StringBuilder luvut = new StringBuilder();
+
+        numerot.stream()
+                .map(luku -> luku + ", ")
+                .forEach(luvut::append);
+
+        System.out.println(luvut);
+        
     }
+
 }
 
