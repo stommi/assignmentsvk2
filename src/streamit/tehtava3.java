@@ -12,18 +12,14 @@ public class tehtava3 {
         sanat.add("koira");
         sanat.add("kala");
 
-        //KESKEN ALLA
-       /* List<String> kryptatut = sanat.stream()
-                .map(String::length)
-                .forEach(caesar())
+       //Streami, joka kutsuu metodia caesar:
+       List<String> kryptatut = sanat.stream()
+                .map(a -> caesar(a))
                 .collect(Collectors.toList());
 
+        //tulostetaan kryptatut:
         kryptatut.stream()
-                .forEach(System.out::println);*/
-
-        //System.out.println(caesar("kissa"));
-
-
+                .forEach(System.out::println);
         }
 
         public static String caesar(String sana) {
