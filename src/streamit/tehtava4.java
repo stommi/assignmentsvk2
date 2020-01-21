@@ -69,7 +69,7 @@ public class tehtava4 {
                 .forEach(luvut::append);
 
         System.out.println(luvut);
-        
+
     }
 
 }
