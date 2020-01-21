@@ -10,10 +10,10 @@ public class Laskin {
     }
 
     public int kerro(int x, int y) {
-        return x*y;
+        return x * y;
     }
 
-    public double jaa(int jaettava, int jakaja) {
-        return jaettava/jakaja*1.0;
+    public double jaa(int jaettava, int jakaja) throws ArithmeticException {
+        return 1.0*jaettava / jakaja*1.0;
     }
 }

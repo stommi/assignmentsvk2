@@ -9,11 +9,11 @@ public class Main {
 
         h.setSyntymapaiva(LocalDate.of(1980, 2, 16));
 
-        System.out.println(h.getSyntymapaiva());
-
-        System.out.println(l.jaa(125, 10));
-        System.out.println(l.kerro(0, 10));
-
+        try {
+            System.out.println(l.jaa(15, 0));
+        } catch (ArithmeticException e) {
+            System.err.println("Nollalla ei voi jakaa: " + e.getMessage());
+        }
 
 
 

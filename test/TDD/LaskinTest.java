@@ -71,4 +71,9 @@ public class LaskinTest {
         assertEquals("Jakolaskun pitäisi palauttaa ensimmainen luku jaettuna toisella luvulla", 20.0, tulos, 0);
     }
 
+    @Test
+    public void jakoLaskuToimiiOikein(){
+        assertEquals(Double.POSITIVE_INFINITY,l.jaa(5,0),0);
+    }
+
 }
